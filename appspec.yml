@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /usr/sbin
+    destination:  /etc/httpd/conf/httpd
 hooks:
   BeforeInstall:
     - location: install_dependencies.sh

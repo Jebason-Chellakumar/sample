@@ -4,4 +4,5 @@ function isinstalled {
   else
     false
   fi
+
 }

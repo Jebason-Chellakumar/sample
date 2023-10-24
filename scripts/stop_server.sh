@@ -2,7 +2,7 @@ function isinstalled {
   if yum list installed "$httpd" >/dev/null 2>&1; then
     true
   else
-    yun -y install httpd
+    yum -y install httpd
   fi
 
 }

@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/var/www/html/index.html
+    destination: /home/ec2-user/etc/httpd/conf/httpd
 permissions:
   -  owner: ec2-user
      group: ec2-user
